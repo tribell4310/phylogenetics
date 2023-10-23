@@ -62,4 +62,7 @@ Various utilities to accelerate phylogenetic analysis written in python and R.  
  - tnrs_resolution.r
 	 - Validation script to ensure all tip labels used in a phylogeny can be unambiguously matched to a known species in OTOL.
 
+## modeller
+ - See separate readme file in the modeller subdirectory.
+
 > Written with [StackEdit](https://stackedit.io/).
