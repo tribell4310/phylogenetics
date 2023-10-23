@@ -4,7 +4,7 @@ Pipeline for structure threading with modeller.  Requires a licensed copy of mod
 
 ## protocol
 
- 1. Start with a multiple sequence alignment (fasta) and a structure model (pdb) that matches the region you want to perform homology threading onto.  Place both files into your working directory.
+ 1. Start with a multiple sequence alignment (fasta) and a structure model (pdb) that matches the region you want to perform homology threading onto.  Place both files into your working directory.  If your MSA was generated in JalView and output with trailing slashes, be sure to remove the slashes in advance using `slashRemove.py`.
 
  2. Run `automodel_setup.py` to prepare PIR-formatted alignment files for each of your sequences.  A new folder alled `ali_files` will be created in your working directory.
 
