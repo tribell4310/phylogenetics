@@ -1,8 +1,8 @@
-# modeller loop
+# Modeller loop
 
 Pipeline for structure threading with modeller.  Requires a licensed copy of modeller (https://salilab.org/modeller/).  We use the version distributed through SBGRID (https://sbgrid.org/software/).
 
-## protocol
+## Protocol
 
  1. Start with a multiple sequence alignment (fasta) and a structure model (pdb) that matches the region you want to perform homology threading onto.  Place both files into your working directory.  If your MSA was generated in JalView and output with trailing slashes, be sure to remove the slashes in advance using `slashRemove.py`.
 
